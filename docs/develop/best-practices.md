@@ -36,7 +36,7 @@ if (indexSheet) {
 }
 ```
 
-The TypeScript `?` operator checks if the object exists before calling a method. This can make your code more streamlined if you don't need to do anything special when the object doesn't exist.
+**The TypeScript `?` operator checks if the object exists before calling a method. This can make your code more streamlined if you don't need to do anything special when the object doesn't exist.**
 
 ```TypeScript
 // The ? ensures that the delete() API is only called if the object exists.
